@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMORY GAME "EXPLORING THE NUSANTARA"</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video id="backsound" autoplay style="display: none;">
+        <source src="home-assets/backsound.3gp">
+    </video>
+    <section id="start">
+        <div class="startContent">
+            <img src="home-assets/logo.png" id="logo">
+            <img src="home-assets/start-button.png" id="startButton">
+            <a class="tutorial"><img src="home-assets/info-button.png" id="infoButton"></a>
+        </div>    
+        <div class="sounds">
+            <img src="home-assets/soundon.png" id="soundOn">
+            <img src="home-assets/soundoff.png" id="soundOff">
+        </div>
+    </section>
+
+    <section id="main">
+          <h2>Point</h2>
+        <div id="pointbox"></div>
+        <div id="timebox"></div>
+        
+        <button class="btn" id="btn1">Easy</button>
+        <button class="btn" id="btn2">Medium</button>
+        <button class="btn" id="btn3">Hard</button>
+        <img src="home-assets/soundon.png" id="soundOn2">
+        <img src="home-assets/soundoff.png" id="soundOff2">
+        <!-- <a href="/index.html"><img src="home-assets/back-button.png" id="back2"></a> -->
+        <img src="home-assets/back-button.png" id="back2">
+        <div id="mainbox">
+
+        </div>
+        <div id="mainboxs">
+           Pick The Level
+        </div>
+    </section>
+
+    <section id="tutor">
+        <div class="title">
+            Tutorial
+        </div>
+        <div class="tutor">
+            1. Memory Game ini mengangkat tema tentang kekayaan alam, keragaman budaya, dan ciri khas yang dimiliki Indonesia. <br>
+            2. Pemain diberikan sejumlah kartu yang harus diingat dalam kurun waktu yang telah ditentukan. <br>
+            3. Pemain harus menemukan pasangan kartu dari kartu yang telah dibuka dalam kurun waktu yang telah ditentukan. <br>
+            4. Pemain hanya boleh membuka 2 kartu dalam 1 kesempatan. Jika kedua kartu saling berkaitan, maka pemain berhasil mencetak poin. <br>
+            5. Sebaliknya, jika tidak berkaitan, kedua kartu akan kembali tertutup. <br>
+        </div>
+        <img src="home-assets/back-button.png" id="backbutton" alt="">
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html> 

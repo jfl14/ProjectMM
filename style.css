@@ -1,0 +1,286 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#start, #tutor{
+    height: 100vh;
+    background: url("home-assets/home.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    position: absolute;
+    left: 18.5%;
+    top: 9px;
+    height: 400px;
+}
+
+#logo:hover{
+    position: absolute;
+    top: 9px;
+    height: 400px;
+    filter:invert(2%);
+}
+
+#startButton{
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+
+#startButton:hover{
+    transform:rotate(2deg);
+    cursor: pointer;
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+
+#infoButton{
+    height: 60px;
+    position: absolute;
+    top: 76%;
+    left: 1%;
+}
+
+#infoButton:hover{
+    transform:rotate(3deg);
+    height: 60px;
+    position: absolute;
+    top: 76%;
+    left: 1%;
+}
+
+#soundOn, #soundOff, #back2{
+    height: 60px;
+    position: absolute;
+    top: 87%;
+    left: 1%;
+}
+
+#soundOn:hover, #soundOff:hover, #back2:hover{
+    transform:rotate(2deg);
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    top: 87%;
+    left: 1%;
+}
+
+.title {
+    position: absolute;
+    top: 150px;
+    height: 400px;
+    font-size:50px;
+    font-family: sans-serif;
+    color:black;
+}
+
+.tutor{
+    position: absolute;
+    top: 250px;
+    height: 140px;
+    width: 75%;
+    padding:2%;
+    font-size:18px;
+    color:white;
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius:20px;
+    text-align: justify;
+}
+
+#backbutton{
+    height: 60px;
+    position: absolute;
+    top: 87%;
+    right: 1%;
+}
+
+#backbutton:hover{
+    transform:rotate(2deg);
+    height: 60px;
+    position: absolute;
+    top: 87%;
+    right: 1%;
+}
+
+#backbutton:hover, #soundOn2:hover, #soundOff2:hover, .tutorial:hover{
+    cursor: pointer;
+}
+
+#soundOn2, #soundOff2{
+    height: 60px;
+    position: absolute;
+    top: 87%;
+    left: 12%;
+}
+
+#soundOn2:hover, #soundOff2:hover{
+    transform:rotate(2deg);
+    height: 60px;
+    position: absolute;
+    top: 87%;
+    left: 12%;
+}
+
+#play {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+}
+
+#main {
+    height: 100vh;
+    background-image: url("home-assets/home.jpg");
+    background-size: cover;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#main h2:nth-child(1) {
+    position: absolute;
+    left: 92px;
+    font-size: 2em;
+    top: 20px;
+    color: black;
+}
+
+#main #pointbox {
+    position: absolute;
+    left: 80px;
+    top: 70px;
+    width: 100px;
+    height: 60px;
+    font-size: 2.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+}
+
+#main h2:nth-child(3) {
+    position: absolute;
+    left: 80px;
+    font-size: 3em;
+    top: 55%;
+    color: white;
+}
+
+/* #main #timebox {
+    position: absolute;
+    left: 34px;
+    width: 16%;
+    height: 30%;
+    border-radius: 10px;
+    bottom: 23px;
+    font-size: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+} */
+
+#btn1 {
+    position: absolute;
+    left: 60px;
+    width: 12%;
+    height: 8%;
+    font-size: 2em;
+    border: 0px;
+    border-radius: 11px;
+    top: 36%;
+    background-color: white;
+}
+
+#btn2 {
+    position: absolute;
+    left: 60px;
+    width: 12%;
+    height: 8%;
+    font-size: 2em;
+    border: 0px;
+    border-radius: 11px;
+    top: 46%;
+    background-color: white;
+}
+
+#btn3 {
+    position: absolute;
+    left: 60px;
+    width: 12%;
+    height: 8%;
+    font-size: 2em;
+    border: 0px;
+    border-radius: 11px;
+    top: 56%;
+    background-color: white;
+}
+
+#mainbox {
+    width: 80%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(4, 254px);
+    grid-template-rows: repeat(4, 143px);
+    position: absolute;
+    left: 20%;
+    grid-gap: 2px;
+    background-color: aliceblue;
+}
+
+#mainboxs {
+    width: 80%;
+    height: 100vh;
+    background: url("Assets/pexels-alexandr-podvalny-2166553.jpg");
+    background-size: cover;
+    display: grid;
+    position: absolute;
+    left: 20%;
+    font-size: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    animation: linear forwards;
+}
+
+#mainbox .box {
+    background-image: url("Assets/map-3798132_1280.webp");
+    font-size: 0em;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes my {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+@keyframes mys {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 100%;
+    }
+}
