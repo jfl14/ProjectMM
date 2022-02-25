@@ -123,6 +123,8 @@ playbtn.addEventListener("click", function() {
     if (mainsec.style.display != "flex") {
         mainsec.style.display = "flex"
     }
+    sound.play()
+
 })
 
 function second() {
