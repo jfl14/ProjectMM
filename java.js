@@ -107,6 +107,11 @@ $(function(){
         $(".startContent").hide()
         $("#tutor").hide()
     })
+
+    $("back2").click(function(e){
+        $(".startContent").hide()
+        $("#tutor").hide()
+    })
 })
 
 playbtn.addEventListener("click", function() {
